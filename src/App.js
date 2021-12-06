@@ -48,8 +48,8 @@ function App() {
         </Col>
       </Row> <br/>
       <Row>
-        <Col></Col>
-        <Col xs={11}>
+        <Col xs lg="1"></Col>
+        <Col>
           <CardGroup>
             <Card>
               <Card.Img variant="top" src="https://images.performgroup.com/di/library/GOAL/f7/ad/diego-godin-vs-thailand_l9viaa2o7afh19gjl6vnekbgq.jpg?t=-1214473334&w=1920&h=1362&quality=100"/>
@@ -93,7 +93,7 @@ function App() {
             </Card>
           </CardGroup>
         </Col>
-        <Col></Col>
+        <Col md="auto"></Col>
       </Row>
     </Container>
   );
